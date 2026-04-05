@@ -26,7 +26,7 @@ const App = () => {
           e.preventDefault();
           convert();
         }}
-        className="w-md bg-white/30 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg backdrop-blur-sm border border-black p-4 flex flex-col items-center gap-2.5"
+        className="w-full sm:w-md bg-white/30 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg backdrop-blur-sm border border-black p-4 flex flex-col items-center gap-2.5"
       >
         <div className="space-y-2 relative w-full">
           <InputBox
